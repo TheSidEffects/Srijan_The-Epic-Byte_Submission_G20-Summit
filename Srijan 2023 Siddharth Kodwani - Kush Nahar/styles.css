@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@600&display=swap');
+
+
+body {
+  scroll-behavior: smooth;
+}
+
+
+.uptxt {
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 1000;
+  animation: fadeInText 1.5s ease-in-out forwards;
+  font-size: 38px;
+  background: linear-gradient(to bottom, #F68F27, #34843A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+img.fade-in {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  opacity: 0;
+  animation: fadeInImage 1.5s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeInImage {
+  from {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.arrow {
+  width: 2.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  animation: floatUpDown 5s ease-in-out infinite, fadeInArrow 3.5s ease-in-out forwards;
+  animation-delay: 2.5s;
+}
+
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInArrow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: .6;
+  }
+}

@@ -1,0 +1,30 @@
+.footer a {
+    justify-content: space-between;
+    margin-right: 20px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    display:inline-block;
+    font-family: 'montserrat';
+    font-size: 16px;
+}
+
+.footer a:hover {
+  color: grey;
+  transition: 0.5s all ease;
+}
+
+.footer p {
+  justify-content: space-between;
+  font-family: 'montserrat';
+  font-size: 18px;
+  color: white;
+  padding: 20px 0 0 40px;
+}
+
+.footer {
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.ibb.co/Fm4YQgT/image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flag{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.flag0{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+}
+
+.first{
+    width: 200px;
+    height: 66.6px;
+    background-color: orange;
+    background: linear-gradient(50deg, #7c3102, #ff9350);
+}
+
+.second{
+    width: 200px;
+    height: 66.6px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(50deg, rgb(223, 223, 223), #fff);
+
+}       
+.third{
+    width: 200px;
+    height: 66.9px;
+    background-color: green;
+    background: linear-gradient(50deg, #053303, #50f952);
+
+}
+.chakra{
+    width: 66.6px;
+    height: 66.6px;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 100px;
+    background: url(https://cdn.pixabay.com/photo/2023/04/06/16/29/ashoka-chakra-7904695_1280.png) no-repeat center;
+    background-size: cover;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    form{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate2{
+    form{
+        transform: translate(-20px) translateY(10px);
+    }
+    to{
+        transform: translate(20px) translateY(-10px);
+    }
+}

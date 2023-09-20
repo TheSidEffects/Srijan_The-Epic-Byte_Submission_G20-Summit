@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.image-gallery img:first-child {
+    display: block;
+}
+
+.image-gallery-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-gallery-button {
+    padding: 10px 20px;
+    background-color: #F68F27;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    margin-bottom: 100px;
+}
